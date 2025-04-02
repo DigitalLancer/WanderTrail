@@ -1,0 +1,31 @@
+.catalogue {
+    background: #d4d4d4;
+    padding: 50px 0 80px 0;
+    overflow: clip;
+    text-align: center;
+}
+.catalogue-content h1{
+    font-weight: bolder;
+    /*color: #1B4242;
+    font-family: "Acme", sans-serif;*/
+    color: rgb(43, 43, 43);
+    font-family: "Ubuntu", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.8em;
+    word-spacing: 0.1em;
+    margin: 10px 0px 60px 0;
+}
+.catalogue .catalogue-content{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+}

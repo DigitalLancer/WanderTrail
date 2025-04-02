@@ -1,0 +1,36 @@
+nav{
+    width: 100%;
+    background: transparent;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding: 10px 0px;
+    transition: 0.3s;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 20px;
+    font-size: 1.2em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.green-nav{
+    background: #1A3636;
+    background: #b3b3b3;
+}
+@media (max-width: 760px) {
+
+    nav ul li{
+        
+        margin: 5px 20px;
+        font-size: 1em;
+    }
+}
